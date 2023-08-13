@@ -1,0 +1,140 @@
+:root {
+  --darkest: #45b6fe;
+  --darkest-light:#6ac5fe;
+  --middle: #8fd3fe;
+  --lighter: #b5e2fe;
+  --lightest: #daf0ff;
+}
+
+
+* {
+  margin: 0;
+  padding: 0;
+	box-sizing: border-box;
+	font-family: "Fira Sans", sans-serif;
+}
+
+.welcomecontainer {
+  max-height: 5%;
+  position: static;
+}
+.welcome {
+  font-size: 50px;
+  margin-bottom: 10%;
+  position: static;
+}
+
+
+/* Body decorations */
+body {
+	background-color: #d0bb94;
+}
+
+.App {
+  padding: 32px;
+}
+
+.maincontainer {
+  width: 70%;
+  display: inline-block;
+
+}
+
+.imgcontainer {
+  display:inline-block;
+  position: relative;
+  top: 100px;
+  left: 80px;
+  width:30%;
+}
+
+.imgcontainer img {
+  border-radius: 50%;
+  size-adjust: 10%;
+  width:350px;
+  height:500px;
+}
+
+/* Text positioning and decorations */
+h1 {
+  font-size: 20px;
+	font-weight: 700;
+  color: black;
+	margin-bottom: 32px;
+  display: inline-block;
+}
+
+.name {
+  margin-left:5%;
+  width:30%;
+  display: inline-block;
+  position: left;
+}
+
+.dosage {
+  width:30%;
+  display: inline-block;
+  position: center;
+}
+
+.time {
+  width:20%;
+  display:inline-block;
+  position: right;
+  margin-right: 0;
+}
+
+.delete {
+  width: 7%;
+  display: inline-block;
+  position: right;
+  margin-right: 0;
+  color: red;
+  font-size: 20px;
+  background-color: white;
+  text-align: center;
+}
+
+.delete:hover {
+  cursor: pointer;
+}
+
+hr {
+  color: red;
+  margin-top: 0;
+  margin-bottom: 20px;
+}
+
+.medicineconsumed {
+  border: 10px;
+}
+
+.individualMedicine {
+  margin-top: 25px;
+  border-color: red;
+  border-style: rounded;
+  border-width: 100px;
+}
+
+/* Submit Button */
+.createMedicineButton {
+  border-style: solid;
+  padding: 5px;
+  background-color: lightpink;
+}
+
+.createMedicineButton:hover {
+  opacity: 0.8;
+  cursor: pointer;
+}
+
+.newMedicineContainer {
+  position: center;
+}
+
+.newMedicineContainer input{
+  margin: 2px;
+  padding: 5px;
+}
+
+
